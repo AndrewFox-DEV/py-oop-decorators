@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pystrict"
+version = "1.0.0-r"
+description = "Decorators for strict OOP in Python!"
+readme = "README.md"
+authors = [{ name="AndrewFox_DEV", email="andrewfox.developer@gmail.com" }]
+license = { text = "Custom license by AndrewFox_DEV. All rights reserved." }
+dependencies = []
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/AndrewFox-DEV/py-oop-decorators"
